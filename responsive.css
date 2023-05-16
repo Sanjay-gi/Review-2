@@ -1,0 +1,134 @@
+@media screen and (max-width: 800px) {
+
+    .hide-1 {
+        display: none;
+    }
+
+    .header-search-bar {
+        width: 50vw;
+    }
+
+    .nav-category {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+
+    .nav-category-left {
+        margin-bottom: 20px;
+    }
+
+    .nav-category-right {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header {
+        display: none;
+    }
+
+    .header-second {
+        display: block;
+    }
+
+    .bank-Offer-post-img img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .header-second-main {
+        display: flex;
+        flex-direction: column;
+        background-color: #2874f0;
+        height: 98px;
+        padding: 10px 10px;
+    }
+
+    .header-second-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 5px 0;
+
+    }
+
+    .header-second-search-bar {
+        background-color: white;
+        padding: 8px 10px;
+        width: 100vw;
+        border-radius: 2px;
+    }
+
+    .header-second-search-bar form input {
+        font-size: 1em;
+    }
+
+    .nav-category {
+        padding: 10px 0;
+        border-radius: 0;
+    }
+
+    .auto-slider {
+        margin: 20px 0;
+        height: 200px;
+        border-radius: 0;
+    }
+
+    .auto-slider-left-btn i,
+    .auto-slider-right-btn i {
+        padding: 30px 8px;
+        background-color: rgb(16, 25, 75);
+        font-size: 25px;
+    }
+
+    .bank-Offer-post {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .bank-Offer-post-img img {
+        width: 100%;
+    }
+
+    .top-three-product {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .top-three-product-contain img {
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .top-offer-with-slide-bar {
+        margin: 10px 0;
+        border-radius: 0;
+    }
+
+    .top-offer-with-slide-bar-left-btn button {
+        padding: 8px 8px;
+    }
+
+    .top-offer-with-slide-bar-left-btn button a {
+        font-size: .8em;
+    }
+
+    .top-nine-product {
+        margin: 10px 0;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .top-nine-product-contain img {
+        padding: 5px;
+        border-radius: 15px;
+    }
+
+    .footer {
+        height: 50px;
+    }
+}
